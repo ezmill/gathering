@@ -40,7 +40,7 @@
     color: white;
     font-family: "Open Sans" ;
     text-align:  center;
-    line-height: 50px;
+    line-height: 40vh;
     /*z-index: 10000;*/
   }
   h1{
@@ -48,7 +48,7 @@
     font-style: italic;
     font-size: 40px;
   }
-  #info p{
+  #info p, #info2 p{
     font-size: 30px;
   }
   #ezra{
@@ -61,13 +61,26 @@
     font-family: "Open Sans" ;
     text-align:  right;
     /*line-height: 100px;*/
-    z-index: 100;
+    z-index: 50;
+
   }
   #ezra h1{
     position: absolute;
     bottom: 0;
     right: 0;
     margin: 20px;
+    text-shadow: 0px 3px 0px black;
+  }
+  #info2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+      color: white;
+    font-family: "Open Sans" ;
+    text-align:  center;
+    line-height: 10vh;
   }
   </style>
 </head>
@@ -86,12 +99,14 @@
     <video src="ouch.mp4" loop="true" autoplay></video>
     <div id="info">
         <h1>SENIOR ART SHOW</h1>
-        <p>Gallery 2</p>
-        <p>2/9-2/20</p>
-        <p>Reception on 2/12 at 3:30pm</p>
     </div>
     <div id="ezra">
         <h1>Ezra Miller</h1>
+    </div>
+    <div id="info2">
+        <p>Gallery 2</p>
+        <p>2/9-2/20</p>
+        <p>Reception on 2/12 at 3:30pm</p>
     </div>
   </div>
   <script type="text/javascript" src="webgl-utils.js"></script>
